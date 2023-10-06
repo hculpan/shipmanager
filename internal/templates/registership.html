@@ -1,0 +1,55 @@
+<form class="container" hx-post="register-ship" hx-target="#content" hx-swap="inner">
+    <div class="row">
+        <label class="form-label col-2 text-end">Name</label>
+        <input type="text" name="shipname" id="shipname" class="form-control col text-start">
+    </div>
+    <div class="row mt-1">
+        <label class="form-label col-2 text-end">Cargo Capacity</label>
+        <input type="number" name="cargo" value="0" id="cargo" style="max-width: 75px" class="form-control text-start">
+    </div>
+    <div class="row mt-1">
+        <label class="form-label col-2 text-end">Hull Tons</label>
+        <input type="number" name="tons" value="0" id="tons" style="max-width: 75px" class="form-control text-start">
+    </div>
+    <div class="row mt-1">
+        <label class="form-label col-2 text-end">High Passage</label>
+        <input type="number" name="high" value="0" id="high" style="max-width: 75px" class="form-control text-start">
+    </div>
+    <div class="row mt-1">
+        <label class="form-label col-2 text-end">Middle Passage</label>
+        <input type="number" name="middle" value="0" id="middle" style="max-width: 75px"
+            class="form-control text-start">
+    </div>
+    <div class="row mt-1">
+        <label class="form-label col-2 text-end">Basic Passage</label>
+        <input type="number" name="basic" value="0" id="basic" style="max-width: 75px" class="form-control text-start">
+    </div>
+    <div class="row mt-1">
+        <label class="form-label col-2 text-end">Low Passage</label>
+        <input type="number" name="low" value="0" id="low" style="max-width: 75px" class="form-control text-start">
+    </div>
+    <div class="row mt-1">
+        <label class="form-label col-2 text-end">Steward Rating</label>
+        <input type="number" name="steward" value="0" id="steward" style="max-width: 75px"
+            class="form-control text-start">
+    </div>
+    <div class="row mt-4"></div>
+    <div class="row mt-1">
+        <label class="form-label col-2 text-end">Ship Cost (Total, MCr)</label>
+        <input type="number" name="cost" value="0" min="0" step="0.001" id="cost" style="max-width: 150px"
+            class="form-control text-start">
+    </div>
+    <div class="row mt-1">
+        <label class="form-label col-2 text-end">Remaining Balance (MCr)</label>
+        <input type="number" name="remaining" value="0" min="0" step="0.001" id="remaining" style="max-width: 150px"
+            class="form-control text-start">
+    </div>
+    <div class="row mt-1">
+        <label class="form-label col-2 text-end">Monthly Payment (Cr)</label>
+        <input type="number" name="monthly" value="0" min="0" id="monthly" style="max-width: 150px"
+            class="form-control text-start">
+    </div>
+    <div class="row mt-4">
+        <input type="submit" class="btn btn-primary col-2" value="Save">
+    </div>
+</form>

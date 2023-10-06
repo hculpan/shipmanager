@@ -1,0 +1,63 @@
+<div class="container">
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-2 text-end me-1">Ship ID:</div>
+        <div class="col text-start">{{ .Id }}</div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-2 text-end me-1">Ship Name:</div>
+        <div class="col text-start">{{ .Name }}</div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-2 text-end me-1">Hull Tons:</div>
+        <div class="col text-start">{{ .Tons }}</div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-2 text-end me-1">Cargo Capacity:</div>
+        <div class="col text-start">{{ .CargoCapacity }}</div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-2 text-end me-1">High Passage:</div>
+        <div class="col text-start">{{ .HighPassage }}</div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-2 text-end me-1">Middle Passage:</div>
+        <div class="col text-start">{{ .MiddlePassage }}</div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-2 text-end me-1">Basic Passage:</div>
+        <div class="col text-start">{{ .BasicPassage }}</div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-2 text-end me-1">Low Passage:</div>
+        <div class="col text-start">{{ .LowPassage }}</div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-2 text-end me-1">Steward Rating:</div>
+        <div class="col text-start">{{ .StewardRating }}</div>
+    </div>
+    <div class="row mt-4"></div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-2 text-end me-1">Total Cost:</div>
+        <div class="col text-start">{{ .TotalCost }} MCr</div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-2 text-end me-1">Remaining Cost:</div>
+        <div class="col text-start">{{ .RemainingCost }} MCr</div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-2 text-end me-1">Monthly Payment:</div>
+        <div class="col text-start">{{ .MonthlyPayment }} Cr</div>
+    </div>
+</div>
